@@ -1,0 +1,558 @@
+{
+  "Picking Up The Pieces": {
+    "url": "https://arcraiders.wiki/wiki/Picking_Up_The_Pieces",
+    "dependencies": [],
+    "unlocks": [
+      "Clearer Skies",
+      "Trash Into Treasure"
+    ]
+  },
+  "Trash Into Treasure": {
+    "url": "https://arcraiders.wiki/wiki/Trash_Into_Treasure",
+    "dependencies": [
+      "Picking Up The Pieces"
+    ],
+    "unlocks": [
+      "Off The Radar"
+    ]
+  },
+  "Clearer Skies": {
+    "url": "https://arcraiders.wiki/wiki/Clearer_Skies",
+    "dependencies": [
+      "Picking Up The Pieces"
+    ],
+    "unlocks": [
+      "Off The Radar"
+    ]
+  },
+  "Off The Radar": {
+    "url": "https://arcraiders.wiki/wiki/Off_The_Radar",
+    "dependencies": [
+      "Clearer Skies",
+      "Trash Into Treasure"
+    ],
+    "unlocks": [
+      "A Bad Feeling"
+    ]
+  },
+  "A Bad Feeling": {
+    "url": "https://arcraiders.wiki/wiki/A_Bad_Feeling",
+    "dependencies": [
+      "Off The Radar"
+    ],
+    "unlocks": [
+      "Hatch Repairs",
+      "The Right Tool",
+      "Safe Passage"
+    ]
+  },
+  "A Balanced Harvest": {
+    "url": "https://arcraiders.wiki/wiki/A_Balanced_Harvest",
+    "dependencies": [
+      "Eyes In The Sky"
+    ],
+    "unlocks": [
+      "Untended Garden"
+    ]
+  },
+  "A Better Use": {
+    "url": "https://arcraiders.wiki/wiki/A_Better_Use",
+    "dependencies": [
+      "The Right Tool"
+    ],
+    "unlocks": [
+      "Greasing Her Palms"
+    ]
+  },
+  "A Lay Of The Land": {
+    "url": "https://arcraiders.wiki/wiki/A_Lay_Of_The_Land",
+    "dependencies": [
+      "A Reveal In Ruins"
+    ],
+    "unlocks": [
+      "Eyes In The Sky"
+    ]
+  },
+  "A New Type Of Plant": {
+    "url": "https://arcraiders.wiki/wiki/A_New_Type_Of_Plant",
+    "dependencies": [
+      "Building A Library"
+    ],
+    "unlocks": [
+      "Armored Transports"
+    ]
+  },
+  "A Reveal In Ruins": {
+    "url": "https://arcraiders.wiki/wiki/A_Reveal_In_Ruins",
+    "dependencies": [
+      "Medical Merchandise"
+    ],
+    "unlocks": [
+      "A Lay Of The Land"
+    ]
+  },
+  "A Symbol Of Unification": {
+    "url": "https://arcraiders.wiki/wiki/A_Symbol_Of_Unification",
+    "dependencies": [
+      "Unexpected Initiative"
+    ],
+    "unlocks": [
+      "Celeste's Journals",
+      "Out Of The Shadows",
+      "The Major's Footlocker"
+    ]
+  },
+  "A Warm Place To Rest": {
+    "url": "https://arcraiders.wiki/wiki/A_Warm_Place_To_Rest",
+    "dependencies": [
+      "Switching The Supply"
+    ],
+    "unlocks": [
+      "Prescriptions Of The Past"
+    ]
+  },
+  "After Rain Comes": {
+    "url": "https://arcraiders.wiki/wiki/After_Rain_Comes",
+    "dependencies": [
+      "Eyes In The Sky"
+    ],
+    "unlocks": []
+  },
+  "Armored Transports": {
+    "url": "https://arcraiders.wiki/wiki/Armored_Transports",
+    "dependencies": [
+      "A New Type Of Plant"
+    ],
+    "unlocks": []
+  },
+  "Back On Top": {
+    "url": "https://arcraiders.wiki/wiki/Back_On_Top",
+    "dependencies": [
+      "Celeste's Journals"
+    ],
+    "unlocks": [
+      "Our Presence Up There"
+    ]
+  },
+  "Bees!": {
+    "url": "https://arcraiders.wiki/wiki/Bees!",
+    "dependencies": [
+      "Flickering Threat"
+    ],
+    "unlocks": [
+      "Espresso"
+    ]
+  },
+  "Broken Monument": {
+    "url": "https://arcraiders.wiki/wiki/Broken_Monument",
+    "dependencies": [
+      "What We Left Behind"
+    ],
+    "unlocks": [
+      "Marked For Death",
+      "Straight Record"
+    ]
+  },
+  "Building A Library": {
+    "url": "https://arcraiders.wiki/wiki/Building_A_Library",
+    "dependencies": [
+      "Digging Up Dirt"
+    ],
+    "unlocks": [
+      "A New Type Of Plant"
+    ]
+  },
+  "Celeste's Journals": {
+    "url": "https://arcraiders.wiki/wiki/Celeste%27s_Journals",
+    "dependencies": [
+      "A Symbol Of Unification"
+    ],
+    "unlocks": [
+      "Back On Top"
+    ]
+  },
+  "Communication Hideout": {
+    "url": "https://arcraiders.wiki/wiki/Communication_Hideout",
+    "dependencies": [
+      "Lost In Transmission"
+    ],
+    "unlocks": [
+      "Into The Fray"
+    ]
+  },
+  "Digging Up Dirt": {
+    "url": "https://arcraiders.wiki/wiki/Digging_Up_Dirt",
+    "dependencies": [
+      "Tribute To Toledo"
+    ],
+    "unlocks": [
+      "Turnabout",
+      "Building A Library"
+    ]
+  },
+  "Doctor's Orders": {
+    "url": "https://arcraiders.wiki/wiki/Doctor%27s_Orders",
+    "dependencies": [
+      "Greasing Her Palms"
+    ],
+    "unlocks": [
+      "Medical Merchandise"
+    ]
+  },
+  "Dormant Barons": {
+    "url": "https://arcraiders.wiki/wiki/Dormant_Barons",
+    "dependencies": [
+      "Greasing Her Palms"
+    ],
+    "unlocks": [
+      "Mixed Signals",
+      "What We Left Behind"
+    ]
+  },
+  "Down To Earth": {
+    "url": "https://arcraiders.wiki/wiki/Down_To_Earth",
+    "dependencies": [
+      "Hatch Repairs"
+    ],
+    "unlocks": [
+      "The Trifecta"
+    ]
+  },
+  "Echoes Of Victory Ridge": {
+    "url": "https://arcraiders.wiki/wiki/Echoes_Of_Victory_Ridge",
+    "dependencies": [
+      "Keeping The Memory"
+    ],
+    "unlocks": [
+      "Unexpected Initiative"
+    ]
+  },
+  "Espresso": {
+    "url": "https://arcraiders.wiki/wiki/Espresso",
+    "dependencies": [
+      "Bees!"
+    ],
+    "unlocks": [
+      "Life Of A Pharmacist"
+    ]
+  },
+  "Eyes In The Sky": {
+    "url": "https://arcraiders.wiki/wiki/Eyes_In_The_Sky",
+    "dependencies": [
+      "A Lay Of The Land"
+    ],
+    "unlocks": [
+      "After Rain Comes",
+      "A Balanced Harvest"
+    ]
+  },
+  "Eyes On The Prize": {
+    "url": "https://arcraiders.wiki/wiki/Eyes_On_The_Prize",
+    "dependencies": [
+      "Market Correction"
+    ],
+    "unlocks": [
+      "Industrial Espionage"
+    ]
+  },
+  "Flickering Threat": {
+    "url": "https://arcraiders.wiki/wiki/Flickering_Threat",
+    "dependencies": [
+      "Power Out"
+    ],
+    "unlocks": [
+      "Bees!"
+    ]
+  },
+  "Greasing Her Palms": {
+    "url": "https://arcraiders.wiki/wiki/Greasing_Her_Palms",
+    "dependencies": [
+      "A Better Use"
+    ],
+    "unlocks": [
+      "Doctor's Orders",
+      "Dormant Barons"
+    ]
+  },
+  "Hatch Repairs": {
+    "url": "https://arcraiders.wiki/wiki/Hatch_Repairs",
+    "dependencies": [
+      "A Bad Feeling"
+    ],
+    "unlocks": [
+      "Down To Earth"
+    ]
+  },
+  "Industrial Espionage": {
+    "url": "https://arcraiders.wiki/wiki/Industrial_Espionage",
+    "dependencies": [
+      "Eyes On The Prize"
+    ],
+    "unlocks": [
+      "Unexpected Initiative"
+    ]
+  },
+  "Into The Fray": {
+    "url": "https://arcraiders.wiki/wiki/Into_The_Fray",
+    "dependencies": [
+      "Communication Hideout"
+    ],
+    "unlocks": []
+  },
+  "Keeping The Memory": {
+    "url": "https://arcraiders.wiki/wiki/Keeping_The_Memory",
+    "dependencies": [
+      "Straight Record"
+    ],
+    "unlocks": [
+      "Echoes Of Victory Ridge"
+    ]
+  },
+  "Life Of A Pharmacist": {
+    "url": "https://arcraiders.wiki/wiki/Life_Of_A_Pharmacist",
+    "dependencies": [
+      "Espresso"
+    ],
+    "unlocks": [
+      "Tribute To Toledo"
+    ]
+  },
+  "Lost In Transmission": {
+    "url": "https://arcraiders.wiki/wiki/Lost_In_Transmission",
+    "dependencies": [
+      "Our Presence Up There"
+    ],
+    "unlocks": [
+      "Communication Hideout"
+    ]
+  },
+  "Marked For Death": {
+    "url": "https://arcraiders.wiki/wiki/Marked_For_Death",
+    "dependencies": [
+      "Broken Monument"
+    ],
+    "unlocks": [
+      "Market Correction"
+    ]
+  },
+  "Market Correction": {
+    "url": "https://arcraiders.wiki/wiki/Market_Correction",
+    "dependencies": [
+      "Marked For Death"
+    ],
+    "unlocks": [
+      "Eyes On The Prize"
+    ]
+  },
+  "Medical Merchandise": {
+    "url": "https://arcraiders.wiki/wiki/Medical_Merchandise",
+    "dependencies": [
+      "Doctor's Orders"
+    ],
+    "unlocks": [
+      "A Reveal In Ruins"
+    ]
+  },
+  "Mixed Signals": {
+    "url": "https://arcraiders.wiki/wiki/Mixed_Signals",
+    "dependencies": [
+      "Dormant Barons"
+    ],
+    "unlocks": []
+  },
+  "Our Presence Up There": {
+    "url": "https://arcraiders.wiki/wiki/Our_Presence_Up_There",
+    "dependencies": [
+      "Back On Top"
+    ],
+    "unlocks": [
+      "Lost In Transmission"
+    ]
+  },
+  "Out Of The Shadows": {
+    "url": "https://arcraiders.wiki/wiki/Out_Of_The_Shadows",
+    "dependencies": [
+      "A Symbol Of Unification"
+    ],
+    "unlocks": []
+  },
+  "Power Out": {
+    "url": "https://arcraiders.wiki/wiki/Power_Out",
+    "dependencies": [
+      "Prescriptions Of The Past"
+    ],
+    "unlocks": [
+      "Flickering Threat"
+    ]
+  },
+  "Prescriptions Of The Past": {
+    "url": "https://arcraiders.wiki/wiki/Prescriptions_Of_The_Past",
+    "dependencies": [
+      "A Warm Place To Rest"
+    ],
+    "unlocks": [
+      "Power Out"
+    ]
+  },
+  "Safe Passage": {
+    "url": "https://arcraiders.wiki/wiki/Safe_Passage",
+    "dependencies": [
+      "A Bad Feeling"
+    ],
+    "unlocks": [
+      "What Goes Around"
+    ]
+  },
+  "Source Of The Contamination": {
+    "url": "https://arcraiders.wiki/wiki/Source_Of_The_Contamination",
+    "dependencies": [
+      "Water Troubles"
+    ],
+    "unlocks": [
+      "Switching The Supply"
+    ]
+  },
+  "Sparks Fly": {
+    "url": "https://arcraiders.wiki/wiki/Sparks_Fly",
+    "dependencies": [
+      "What Goes Around"
+    ],
+    "unlocks": []
+  },
+  "Straight Record": {
+    "url": "https://arcraiders.wiki/wiki/Straight_Record",
+    "dependencies": [
+      "Broken Monument"
+    ],
+    "unlocks": [
+      "Keeping The Memory"
+    ]
+  },
+  "Switching The Supply": {
+    "url": "https://arcraiders.wiki/wiki/Switching_The_Supply",
+    "dependencies": [
+      "Source Of The Contamination"
+    ],
+    "unlocks": [
+      "A Warm Place To Rest"
+    ]
+  },
+  "The Right Tool": {
+    "url": "https://arcraiders.wiki/wiki/The_Right_Tool",
+    "dependencies": [
+      "A Bad Feeling"
+    ],
+    "unlocks": [
+      "A Better Use"
+    ]
+  },
+  "The Root Of The Matter": {
+    "url": "https://arcraiders.wiki/wiki/The_Root_Of_The_Matter",
+    "dependencies": [
+      "Untended Garden"
+    ],
+    "unlocks": [
+      "Water Troubles"
+    ]
+  },
+  "The Major's Footlocker": {
+    "url": "https://arcraiders.wiki/wiki/The_Major%27s_Footlocker",
+    "dependencies": [
+      "A Symbol Of Unification"
+    ],
+    "unlocks": []
+  },
+  "The Trifecta": {
+    "url": "https://arcraiders.wiki/wiki/The_Trifecta",
+    "dependencies": [
+      "Down To Earth"
+    ],
+    "unlocks": []
+  },
+  "Tribute To Toledo": {
+    "url": "https://arcraiders.wiki/wiki/Tribute_To_Toledo",
+    "dependencies": [
+      "Life Of A Pharmacist"
+    ],
+    "unlocks": [
+      "Digging Up Dirt"
+    ]
+  },
+  "Turnabout": {
+    "url": "https://arcraiders.wiki/wiki/Turnabout",
+    "dependencies": [
+      "Digging Up Dirt"
+    ],
+    "unlocks": []
+  },
+  "Unexpected Initiative": {
+    "url": "https://arcraiders.wiki/wiki/Unexpected_Initiative",
+    "dependencies": [
+      "Echoes Of Victory Ridge",
+      "Industrial Espionage"
+    ],
+    "unlocks": [
+      "A Symbol Of Unification"
+    ]
+  },
+  "Untended Garden": {
+    "url": "https://arcraiders.wiki/wiki/Untended_Garden",
+    "dependencies": [
+      "A Balanced Harvest"
+    ],
+    "unlocks": [
+      "The Root Of The Matter"
+    ]
+  },
+  "Water Troubles": {
+    "url": "https://arcraiders.wiki/wiki/Water_Troubles",
+    "dependencies": [
+      "The Root Of The Matter",
+      "After Rain Comes"
+    ],
+    "unlocks": [
+      "Source Of The Contamination"
+    ]
+  },
+  "What Goes Around": {
+    "url": "https://arcraiders.wiki/wiki/What_Goes_Around",
+    "dependencies": [
+      "Safe Passage"
+    ],
+    "unlocks": [
+      "Sparks Fly"
+    ]
+  },
+  "What We Left Behind": {
+    "url": "https://arcraiders.wiki/wiki/What_We_Left_Behind",
+    "dependencies": [
+      "Dormant Barons"
+    ],
+    "unlocks": [
+      "Broken Monument"
+    ]
+  },
+  "A First Foothold": {
+    "url": "https://arcraiders.wiki/wiki/A_First_Foothold",
+    "dependencies": [],
+    "unlocks": [
+      "Reduced To Rubble"
+    ]
+  },
+  "Reduced To Rubble": {
+    "url": "https://arcraiders.wiki/wiki/Reduced_To_Rubble",
+    "dependencies": [
+      "A First Foothold"
+    ],
+    "unlocks": [
+      "With A Trace"
+    ]
+  },
+  "With A Trace": {
+    "url": "https://arcraiders.wiki/wiki/With_A_Trace",
+    "dependencies": [
+      "Reduced To Rubble"
+    ],
+    "unlocks": []
+  }
+}

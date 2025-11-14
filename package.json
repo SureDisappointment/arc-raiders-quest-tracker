@@ -1,0 +1,34 @@
+{
+  "name": "arc-quest-tracker-nuxt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck",
+    "fetch-quests": "node getQuestData.js && node generateTiers.js"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.73",
+    "@iconify-json/simple-icons": "^1.2.58",
+    "@nuxt/ui": "^4.1.0",
+    "@vueuse/nuxt": "14.0.0",
+    "cheerio": "^1.1.2",
+    "dagre": "^0.8.5",
+    "node-fetch": "^3.3.2",
+    "nuxt": "^4.2.1",
+    "vue": "^3.5.23"
+  },
+  "devDependencies": {
+    "@iconify-json/heroicons": "^1.2.3",
+    "@nuxt/eslint": "^1.10.0",
+    "@types/dagre": "^0.7.53",
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.1.3"
+  },
+  "packageManager": "pnpm@10.22.0+sha512.bf049efe995b28f527fd2b41ae0474ce29186f7edcb3bf545087bd61fbbebb2bf75362d1307fda09c2d288e1e499787ac12d4fcb617a974718a6051f2eee741c"
+}
