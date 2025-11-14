@@ -162,6 +162,7 @@ async function main() {
   process.stdout.write('\n')
 
   const outputPath = './raw/questData.json'
+  fs.mkdirSync('./raw', { recursive: true })
   fs.writeFileSync(outputPath, JSON.stringify(allQuestData, null, 2))
 
   console.log(`Quest data has been saved to: ${outputPath}`)
