@@ -83,6 +83,7 @@ export const useGraphLayout = () => {
       rankdir: 'TB', // Layout from Top-to-Bottom
       ranksep: Y_PADDING, // Vertical spacing
       nodesep: X_PADDING, // Horizontal spacing
+      edgesep: 200, // Minimum spacing between edges
       marginx: X_MARGIN,
       marginy: Y_MARGIN,
       ranker: 'network-simplex' // The layout algorithm

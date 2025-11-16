@@ -17,7 +17,7 @@ useHead({
   ],
   link: [
     // Set the site's favicon
-    { rel: 'icon', href: '/favicon-128.ico' }
+    { rel: 'icon', href: 'favicon-128.ico' }
   ],
   htmlAttrs: {
     // Set the default language for the site for accessibility and SEO
