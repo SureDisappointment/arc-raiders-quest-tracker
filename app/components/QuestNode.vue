@@ -51,9 +51,9 @@ const emit = defineEmits([
  * - `set`: Emits the `toggle` event with the quest ID, instead of
  * mutating the prop directly (which is an anti-pattern).
  */
-const model = computed({
-  get: () => props.completed,
-  set: _val => emit('toggle', props.questId)
+const model = ref(props.completed)
+watch(model, (_) => {
+  setTimeout(() => emit('toggle', props.questId), 0)
 })
 
 /**
@@ -120,9 +120,9 @@ const hasMenuItems = computed(() => menuItems.value.flat().length > 0)
       class="p-4 rounded-lg shadow-md border w-64 transition-all duration-300"
       :class="{
         // Completed state
-        'bg-green-600 text-white border-green-700': completed,
+        'bg-green-600 text-white border-green-700': model,
         // Default state
-        'bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700': !completed,
+        'bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700': !model,
         // Available (unlocked) state
         'ring-2 ring-blue-500 ring-offset-2 ring-offset-white dark:ring-offset-gray-900': available,
         // Disabled (locked) state

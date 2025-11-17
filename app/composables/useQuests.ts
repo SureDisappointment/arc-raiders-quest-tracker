@@ -105,24 +105,18 @@ export const useQuests = () => {
    * @param id The ID of the quest to toggle.
    */
   const toggleQuest = (id: string) => {
-    // We must create a new Set to trigger reactivity
-    const newSet = new Set(completedQuests.value)
-    if (newSet.has(id)) {
-      newSet.delete(id)
+    if (completedQuests.value.has(id)) {
+      completedQuests.value.delete(id)
     } else {
-      newSet.add(id)
+      completedQuests.value.add(id)
     }
-    completedQuests.value = newSet
   }
 
   /**
    * Resets all quest progress.
    */
   const resetProgress = () => {
-    completedQuests.value = new Set()
-    if (import.meta.client) {
-      localStorage.removeItem('arc-raiders-progress')
-    }
+    completedQuests.value.clear()
   }
 
   /**
@@ -158,8 +152,7 @@ export const useQuests = () => {
     questsToComplete.delete(questId)
 
     // Merge the newly completed quests with the existing set
-    const newSet = new Set([...completedQuests.value, ...questsToComplete])
-    completedQuests.value = newSet
+    completedQuests.value = questsToComplete.union(completedQuests.value)
   }
 
   /**
@@ -193,10 +186,7 @@ export const useQuests = () => {
 
     // Create a new set by removing all quests marked for un-completion
     const newSet = new Set(completedQuests.value)
-    for (const qId of questsToUncomplete) {
-      newSet.delete(qId)
-    }
-    completedQuests.value = newSet
+    completedQuests.value = newSet.difference(questsToUncomplete)
   }
 
   // --- 4. Helper Functions (Internal) ---
@@ -244,6 +234,20 @@ export const useQuests = () => {
    * It recalculates whenever `completedQuests` changes.
    * This is the final, "reactive" data consumed by `index.vue`.
    */
+  // const reactiveNodes = computed(() => {
+  //   return layoutNodes.value.map((node) => {
+  //     const isCompleted = completedQuests.value.has(node.quest.id)
+  //     const isAvailable = getQuestAvailability(node.quest)
+  //     const hasDependantsCompleted = anyDependantCompleted(node.quest)
+
+  //     return {
+  //       ...node, // Contains { quest, x, y }
+  //       isCompleted,
+  //       isAvailable,
+  //       hasDependantsCompleted
+  //     }
+  //   })
+  // })
   const reactiveNodes = computed(() => {
     return layoutNodes.value.map((node) => {
       const isCompleted = completedQuests.value.has(node.quest.id)
