@@ -39,9 +39,8 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  // TODO: Replace with a dedicated social sharing image
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
+  ogImage: 'snapshot-dark.png',
+  twitterImage: 'snapshot-dark.png',
   twitterCard: 'summary_large_image'
 })
 </script>
